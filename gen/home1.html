@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invitation</title>
+    <meta name="description" content="Gen">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+	 <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>1 Year Annerversary Invitation</h1>
+        <p>Would you like to gooooo!?!?!??</p>
+        <div class="button">
+          <button class="button" onclick="redirectToDateType()">Yes</button>
+            <button class="no">No</button>
+        </div>
+    </div>
+    <script>
+        function redirectToDateType() {
+            window.location.href = "datetype.html"; // Redirects to the datetype.html file
+        }
+    </script>
+
+			 <script>
+        const noButton = document.querySelector('.no');
+        noButton.addEventListener('click', () => {
+            const randomX = Math.floor(Math.random() * 300) - 150;
+            const randomY = Math.floor(Math.random() * 300) - 150;
+            noButton.style.transform = `translate(${randomX}px, ${randomY}px)`;
+        });
+      
+    </script>
+</body>
+</html>

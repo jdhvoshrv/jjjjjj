@@ -1,0 +1,180 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: DarkSeaGreen;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+p {
+    color: DarkSeaGreen;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.buttons {
+    margin-top: 20px;
+	text-align: center; 
+}
+
+button {
+    background-color: #ff66a3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.3s;
+
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+.no {
+    position: relative;
+}
+.list { border-style: double; 
+border-width: large; 
+font-size: xxlarge ; 
+text-align: left; 
+}
+.Date{ 
+border-width: 10px; 
+border-color:#ff66a3; 
+text-align: center;
+border-style: double; 
+position:fixed; 
+top:100px; 
+bottom:850px; 
+right:200px; 
+left:200px;
+width: 550px; 
+
+}
+.list1{
+position:fixed; 
+top:300px; 
+bottom:100px; 
+right:0px; 
+left:50px;
+width: 400px;
+}
+
+.list2{
+position:fixed; 
+top:600px; 
+bottom:10px; 
+right:0px; 
+left:50px;
+width:  400px;
+}
+.list3{
+position:fixed; 
+top:300px; 
+bottom:10px; 
+right:0px; 
+left:550px;
+width:  400px;
+}
+.list4{
+position:fixed; 
+top:600px; 
+bottom:10px; 
+right:0px; 
+left:550px;
+width:400px;
+}
+.img{
+	position:fixed; 
+top:410px; 
+bottom:100px; 
+right:0px; 
+left:120px;
+width: 400px;
+}
+.img2{
+position:fixed; 
+top:410px; 
+bottom:10px; 
+right:0px; 
+left:600px;
+width:  400px;
+}
+.img3{
+position:fixed; 
+top:710px; 
+bottom:10px; 
+right:0px; 
+left:600px;
+width:  400px;
+}
+.img4{
+position:fixed; 
+top:710px; 
+bottom:100px; 
+right:0px; 
+left:140px;
+width: 400px;
+}
+.button1{ 
+padding: 100;
+position:fixed; 
+top:325px; 
+bottom:100px; 
+right:0px; 
+left:190px;
+width: 700px;
+height:700px;
+}
+.button2{ 
+padding: 100;
+position:fixed; 
+top:625px; 
+bottom:100px; 
+right:0px; 
+left:190px;
+width: 700px;
+height:690px;
+ z-index: 1000;
+}
+.button3{ 
+padding: 100;
+position:fixed; 
+top:325px; 
+bottom:100px; 
+right:0px; 
+left:700px;
+width: 700px;
+height:690px;
+ z-index: 1000;
+}
+.button4{ 
+padding: 100;
+position:fixed; 
+top:625px; 
+bottom:100px; 
+right:0px; 
+left:700px;
+width: 700px;
+height:690px;
+ z-index: 1000;
+}

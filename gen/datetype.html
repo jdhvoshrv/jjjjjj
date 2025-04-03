@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Your Date Type</title>
+
+       <link rel="stylesheet" href="styles.css"> 
+	   
+</head>
+<body>
+<div class="Date">
+    <h1> Choose The Date Type</h1>
+	</div>
+    <div class="content">
+	<div class="img">
+        <img src="Dinner.jpg" alt="Date Image"> <!-- Replace with the path to your image -->
+		</div>
+		<div class="img2">
+        <img src="movie.jpg" alt="Date Image"> <!-- Replace with the path to your image -->
+		</div>
+		<div class="img3">
+        <img src="bowling.jpg" alt="Date Image"> <!-- Replace with the path to your image -->
+		</div>
+		<div class="img4">
+        <img src="golf.jpg" alt="Date Image"> <!-- Replace with the path to your image -->
+		</div>
+		<h1>
+        <ul>
+		<div class="list1">
+            <li class="container" id="1"></li>
+			<div class= "button1">
+			 <button class="button" onclick="redirectToDateType()">Dinner</button>
+			</div>
+			<div class= "button2">
+			 <button class="no"id="movingButton">Top Golf</button>
+			</div>
+			<div class= "button3">
+			 <button class="no"id="movingButton">Movies</button>
+			</div>
+			<div class= "button4">
+			<button class="button" id="movingButton">Bowling</button>
+
+			</div>
+			
+		
+			<div class="list2">
+            <li  class="container"id="2"></li>
+			</div>
+			<div class="list3">
+            <li class="container"id="3"></li>
+			</div>
+			<div class="list4">
+            <li class="container"id="4"></li>
+			</div>
+			
+		</h1>
+    </div>
+	 <script>
+        // Add event listener to the button
+        document.getElementById("movingButton").addEventListener("click", function() {
+            var button = this;
+            
+            // Generate random positions
+            var randomX = Math.random() * (window.innerWidth - button.offsetWidth);
+            var randomY = Math.random() * (window.innerHeight - button.offsetHeight);
+            
+            // Update button's position
+            button.style.left = randomX + "px";
+            button.style.top = randomY + "px";
+        });
+    </script>
+
+
+    
+
+</body>
+</html>
